@@ -149,12 +149,13 @@ lvim.builtin.treesitter.highlight.enabled = true
 lvim.plugins = {
   { "mhartington/oceanic-next" },
   { "ayu-theme/ayu-vim" },
-  { "luisiacc/gruvbox-baby" },
+  { "luisiacc/gruvbox-baby"},
   { "folke/lsp-colors.nvim" },
   { "vim-scripts/vim-gitgutter" },
   { "vim-jp/vim-go-extra" },
   { "nsf/gocode" },
-}
+  {"NTBBloodbath/rest.nvim"}
+} 
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
