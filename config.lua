@@ -12,7 +12,7 @@ an executable
 lvim.log.level = "warn"
 lvim.format_on_save = true
 lvim.colorscheme = "gruvbox-baby"
-vim.g.ayucolor = 'mirage'
+lvim.builtin.treesitter.rainbow.enable = true
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -152,11 +152,18 @@ lvim.plugins = {
   { "ayu-theme/ayu-vim" },
   { "luisiacc/gruvbox-baby" },
   { "folke/lsp-colors.nvim" },
-  { "vim-scripts/vim-gitgutter" },
+  { "airblade/vim-gitgutter" },
   { "vim-jp/vim-go-extra" },
   { "nsf/gocode" },
   { "nicwest/vim-http" },
-  { "kien/rainbow_parentheses.vim" },
+  { "p00f/nvim-ts-rainbow" },
+  { "onsails/lspkind-nvim" },
+  { "olexsmir/gopher.nvim"},
+  { "fatih/gomodifytags" },
+  { "cweill/gotests" },
+  { "koron/iferr" },
+  { "josharian/impl" },
+  { "nvim-lua/plenary.nvim" },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
