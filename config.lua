@@ -1,4 +1,5 @@
 --[[
+Content-Length: 7264
 lvim is the global options object
 
 Linters should be
@@ -10,7 +11,7 @@ an executable
 
 -- general
 lvim.log.level = "warn"
-lvim.format_on_save = true
+--lvim.format_on_save = true
 lvim.colorscheme = "kanagawa"
 lvim.builtin.treesitter.rainbow.enable = true
 -- to disable icons and use a minimalist setup, uncomment the following
@@ -81,6 +82,7 @@ lvim.builtin.treesitter.ensure_installed = {
   "java",
   "yaml",
   "go",
+  "solidity",
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
@@ -149,9 +151,9 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- Additional Plugins
 lvim.plugins = {
   { "rebelot/kanagawa.nvim" },
-  { "mhartington/oceanic-next" },
-  { "ayu-theme/ayu-vim" },
-  { "luisiacc/gruvbox-baby" },
+  --{ "mhartington/oceanic-next" },
+  --{ "ayu-theme/ayu-vim" },
+  --{ "luisiacc/gruvbox-baby" },
   { "folke/lsp-colors.nvim" },
   { "airblade/vim-gitgutter" },
   { "vim-jp/vim-go-extra" },
@@ -169,7 +171,7 @@ lvim.plugins = {
   { 'neovim/nvim-lspconfig' },
   { 'williamboman/nvim-lsp-installer' },
   { 'hrsh7th/nvim-cmp' },
-  { 'hrsh7th/cmp-nvim-lsp' },
+  { 'hrsh7th/cmp-nvim-lsp' }, 
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
