@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.colorscheme = "gruvbox-baby"
+lvim.colorscheme = "kanagawa"
 lvim.builtin.treesitter.rainbow.enable = true
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
@@ -148,6 +148,7 @@ lvim.builtin.treesitter.highlight.enabled = true
 
 -- Additional Plugins
 lvim.plugins = {
+  { "rebelot/kanagawa.nvim" },
   { "mhartington/oceanic-next" },
   { "ayu-theme/ayu-vim" },
   { "luisiacc/gruvbox-baby" },
@@ -158,12 +159,17 @@ lvim.plugins = {
   { "nicwest/vim-http" },
   { "p00f/nvim-ts-rainbow" },
   { "onsails/lspkind-nvim" },
-  { "olexsmir/gopher.nvim"},
+  { "olexsmir/gopher.nvim" },
   { "fatih/gomodifytags" },
   { "cweill/gotests" },
   { "koron/iferr" },
   { "josharian/impl" },
   { "nvim-lua/plenary.nvim" },
+  { "tomlion/vim-solidity" },
+  { 'neovim/nvim-lspconfig' },
+  { 'williamboman/nvim-lsp-installer' },
+  { 'hrsh7th/nvim-cmp' },
+  { 'hrsh7th/cmp-nvim-lsp' },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
